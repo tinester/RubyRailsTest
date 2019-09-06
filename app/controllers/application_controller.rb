@@ -3,7 +3,4 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "Reality can be anything I want."
   end
-  def goodbye
-    render html: "Goodbye"
-  end
 end
